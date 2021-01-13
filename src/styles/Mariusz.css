@@ -559,12 +559,12 @@ a {
 .social-icon2{
   width: 40px;
   height: 30px;
-  
   color: var(--mainDark);
 }
 
 .social-icon2:hover {
   color: var(--primaryColor);
+  
 }
 
 .footer-text {

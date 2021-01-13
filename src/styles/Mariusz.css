@@ -173,7 +173,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: var(--letterSpacing);
-  
+
 }
 
 .banner-subtitle {
@@ -184,6 +184,7 @@ a {
   /* text-shadow: 2px 2px #dc3c4d; */
   /* animation */
   animation: slideFromRight 5s ease-in-out 1;
+
 }
 
 .banner-title {
@@ -194,6 +195,7 @@ a {
   line-height: 1.2;
   /* animation */
   animation: slideFromLeft 5s ease-in-out 1;
+
 }
 
 /* main button global styles */
@@ -212,16 +214,19 @@ a {
   transition: var(--mainTransition);
   margin-top: 2rem;
   /* border-radius: 10px; */
+
 }
 
 .main-btn:hover {
   color: var(--primaryColor);
   opacity: 0.7;
+
 }
 
 .banner-btn {
   padding: 1.2rem 1.5rem;
   animation: show 5s ease-in-out 1;
+
 }
 
 /* animation */
@@ -276,6 +281,7 @@ a {
   var(--primaryColor), 
   var(--secondaryColor), 
   var(--primaryColor));
+
 }
 
 /* skills  */
@@ -288,6 +294,7 @@ a {
   padding: 2.5rem 0;
   text-align: center;
   transition: var(--mainTransition);
+
 }
 
 .skill-icon {
@@ -295,6 +302,7 @@ a {
   margin-bottom: 1.5rem;
   transition: var(--mainTransition);
   display: inline-block;
+
 }
 
 .skill-title {
@@ -305,6 +313,7 @@ a {
   margin-bottom: 1.5rem;
   color: var(--primaryColor);
   transition: var(--mainTransition);
+
 }
 
 .skill-text {
@@ -313,18 +322,22 @@ a {
   max-width: 13rem;
   margin: 0 auto;
   color: rgb(228, 228, 228);
+
 }
 
 .skill:hover {
   background: var(--primaryColor);
+
 }
 
 .skill:hover .skill-title {
   color: var(--mainWhite);
+
 }
 
 .skill:hover .skill-icon {
   transform: translateY(-5px);
+
 }
 
 @media screen and (min-width: 576px) {
@@ -351,14 +364,17 @@ a {
   width: 80vw;
   margin: 0 auto;
   max-width: 1170px;
+
 }
 
 .about-img, .about-info {
   padding: 2rem 0;
+
 }
 
 .about-info {
   text-align: left;
+
 }
 
 .about-picture-container {
@@ -366,18 +382,21 @@ a {
   border: 0.2rem solid var(--mainDark);
   border-radius: 1rem;
   overflow: hidden;
+
 }
 
 .about-picture {
   width: 100%;
   display: block;
   transition: var(--mainTransition);
+
 }
 
 .about-picture-container:hover .about-picture {
   opacity: 0.8;
   transform: scale(1.2);
 }
+
 
 /* section title global */
 
@@ -387,11 +406,13 @@ a {
   letter-spacing: var(--letterSpacing);
   text-transform: capitalize;
   color: var(--primaryColor);
+
 }
 
 .section-title {
   font-size: 2rem;
   text-transform: uppercase;
+
 }
 
 /* end of section title */
@@ -399,6 +420,7 @@ a {
 .about-text {
   margin: 1rem 0;
   max-width: 26rem;
+
 }
 
 @media screen and (min-width: 992px) {
@@ -418,24 +440,29 @@ a {
 
 .products {
   background: var(--mainGrey);
+
 }
 
 .products-info{
   text-align: left;
+
 }
 
 .products-info, .products-inventory {
   padding: 2rem 0;
+
 }
 
 .product-text {
   color: var(--mainDark);
   margin: 1rem 0;
   max-width: 26rem;
+
 }
 
 .product {
   padding: 2rem 0;
+
 }
 
 .product-img {
@@ -444,6 +471,7 @@ a {
   border-radius: 0.4rem;
   margin-bottom: 2rem;
   border: solid 1px #ffffff;
+
 }
 
 
@@ -452,12 +480,14 @@ a {
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing);
   margin-bottom: 1rem;
+
 }
 
 .product-price {
   color: var(--primaryColor);
   letter-spacing: var(--letterSpacing);
   font-family: var(--slantedText);
+
 }
 
 @media screen and (min-width: 768px) {
@@ -498,10 +528,12 @@ a {
 
 .contact {
   padding-top: 2rem;
+
 }
 
 .contact-item {
   margin-bottom: 3rem;
+
 }
 
 .contact-title {
@@ -513,11 +545,13 @@ a {
   font-size: 1.6rem;
   /* font-weight: 400; */
   margin-bottom: 0.5rem;
+
 }
 
 .contact-text {
   /* text-transform: uppercase; */
   font-weight: 400;
+
 }
 
 .form-control {
@@ -537,6 +571,7 @@ a {
   color: var(--primaryColor);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing);
+
 }
 
 @media screen and (min-width: 992px) {
@@ -558,6 +593,7 @@ a {
 .footer {
   background: var(--mainGrey);
   text-align: center;
+
 }
 
 .social-icon {
@@ -565,12 +601,14 @@ a {
   font-size: 1.3rem;
   margin-right: 1rem;
   transition: var(--mainTransition);
+
 }
 
 .social-icon2{
   width: 40px;
   height: 30px;
   color: var(--mainDark);
+
 }
 
 .social-icon2:hover {
@@ -584,4 +622,5 @@ a {
   letter-spacing: var(--letterSpacing);
   margin-top: 1rem;
   font-size: 0.85rem;
+  
 }

@@ -113,16 +113,18 @@ a {
   padding-left: 2rem;
   transition: var(--mainTransition);
   transform: translate(-100%);
-  
+
 }
 
 .nav-close {
   font-size: 2rem;
   cursor: pointer;
+
 }
 
 .nav-items {
   list-style-type: none;
+
 }
 
 .nav-link {
@@ -138,10 +140,12 @@ a {
 .nav-link:hover {
   color: var(--mainDark);
   padding-left: 0.5rem;
+
 }
 
 .showNav {
   transform: translateX(0);
+
 }
 
 @media screen and (min-width: 768px) {
@@ -157,6 +161,7 @@ a {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/image_bg_header_1.jpg") center/cover no-repeat fixed;
   position: relative;
+
 }
 
 /* banner */
@@ -168,6 +173,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   letter-spacing: var(--letterSpacing);
+  
 }
 
 .banner-subtitle {

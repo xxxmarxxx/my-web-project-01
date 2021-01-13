@@ -59,10 +59,12 @@ a {
 
 .text-center {
   text-align: center;
+
 }
 
 .text-primary {
   color: var(--primaryColor);
+
 }
 
 /* navbar button */
@@ -78,6 +80,7 @@ a {
   font-size: 2rem;
   animation: bounce 2s ease infinite;
   cursor: pointer;
+
 }
 
 @keyframes bounce {
@@ -95,6 +98,7 @@ a {
 /* navbar  */
 .navbar-header{
   background-color: #584859;
+
 }
 
 .navbar {
@@ -109,6 +113,7 @@ a {
   padding-left: 2rem;
   transition: var(--mainTransition);
   transform: translate(-100%);
+  
 }
 
 .nav-close {
@@ -564,7 +569,7 @@ a {
 
 .social-icon2:hover {
   color: var(--primaryColor);
-  
+
 }
 
 .footer-text {

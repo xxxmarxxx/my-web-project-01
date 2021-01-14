@@ -1,2 +1,2 @@
 # my web project 01
-teraz test
+zrobic menu z lewej strony

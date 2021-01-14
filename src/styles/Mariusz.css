@@ -579,10 +579,12 @@ a {
     float: left;
     width: 50%;
     padding: 0 1rem;
+
   }
   .contact-info {
     padding-top: 4rem;
     text-align: left;
+    
   }
 }
 

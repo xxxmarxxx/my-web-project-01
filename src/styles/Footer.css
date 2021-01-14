@@ -1,0 +1,36 @@
+/* footer */
+
+.footer {
+    background: var(--mainGrey);
+    text-align: center;
+  
+  }
+  
+  .social-icon {
+    color: var(--mainDark);
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    transition: var(--mainTransition);
+  
+  }
+  
+  .social-icon2{
+    width: 40px;
+    height: 30px;
+    color: var(--mainDark);
+  
+  }
+  
+  .social-icon2:hover {
+    color: var(--primaryColor);
+  
+  }
+  
+  .footer-text {
+    text-transform: uppercase;
+    color: var(--mainDark);
+    letter-spacing: var(--letterSpacing);
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    
+  }

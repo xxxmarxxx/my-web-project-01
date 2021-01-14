@@ -1,6 +1,6 @@
 import React from "react";
-import '../styles/App.css';
-import '../styles/Mariusz.css';
+// import '../styles/App.css';
+import '../styles/Footer.css';
 import { FaInstagram, FaYoutube, FaGithub, FaLinkedin } from "react-icons/fa";
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 
-import "../styles/Mariusz.css";
-import "../styles/App.css";
+import "../styles/Contact.css";
+// import "../styles/App.css";
 
 const Contact = () => {
   return (

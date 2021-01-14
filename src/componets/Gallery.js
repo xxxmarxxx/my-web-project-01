@@ -1,6 +1,7 @@
 import React from 'react';
-import '../styles/Mariusz.css';
-import '../styles/App.css';
+import '../styles/Gallery.css';
+// import '../styles/App.css';
+
 import Img2 from '../assets/image002.jpg'
 import Img3 from '../assets/image003.jpg'
 import Img4 from '../assets/image004.jpg'

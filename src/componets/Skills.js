@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Mariusz.css";
+import "../styles/Skills.css";
 import {
   FaLightbulb,
   FaDesktop,

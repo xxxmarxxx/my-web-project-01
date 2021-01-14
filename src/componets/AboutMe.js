@@ -1,5 +1,6 @@
 import React from 'react';
-import "../styles/Mariusz.css";
+// import "../styles/Mariusz.css";
+import "../styles/AboutMe.css";
 import Img1 from '../assets/image001.jpg'
 
 const AboutMe = () => {

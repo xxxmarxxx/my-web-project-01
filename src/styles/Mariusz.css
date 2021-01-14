@@ -31,7 +31,8 @@
 }
 
 body {
-  font-family: "Catamaran", sans-serif;
+  /* font-family: "Catamaran", sans-serif; */
+  font-family: var(--slantedText);
   background: var(--mainWhite);
   color: var(--mainDark);
   line-height: 1.5;
@@ -288,6 +289,7 @@ a {
 
 .skills {
   background: var(--mainGrey);
+
 }
 
 .skill {
@@ -584,7 +586,7 @@ a {
   .contact-info {
     padding-top: 4rem;
     text-align: left;
-    
+
   }
 }
 
